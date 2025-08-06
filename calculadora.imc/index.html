@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,7 +7,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="shortcut icon" href="img/icons8-imc-48.png" type="image/x-icon">
-    <script src='script.js' defer></script>
 </head>
 <body>
     <header>
@@ -16,11 +15,11 @@
 
     <main>
         <article>
-            <label for="altura">Altura: </label>
+            <label for="height">Altura: </label>
             <input type="number" id="height"><br>
-            <label for="peso">Peso: </label>
+            <label for="weight">Peso: </label>
             <input type="number" id="weight">
-            <input type="button"  value="Calcular" id="btn">
+            <button type="button" onclick="IMC()"> Calcular</button><br>
 
             <div id="result"></div>
         </article>
@@ -30,6 +29,7 @@
     <footer>
         Atividade de Frameworks Full-Stack
     </footer>
-    
+        <script src='script.js'></script>
+
 </body>
 </html>

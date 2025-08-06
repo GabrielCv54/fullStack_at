@@ -8,10 +8,12 @@ body{
 main{
   background-color: gray;
   padding: 15px;
+  font-style: italic;
 }
 
 div#result{
-    color: white;
+    font: white ;
+    
 }
 
 footer{
